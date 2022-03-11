@@ -1,0 +1,58 @@
+/*Navigation&Header*/
+
+header.row.col {
+    padding: 2%;
+}
+
+a:hover {
+    background-color: #98a5a5;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+@media only sreen and (max-width:505px) {
+    #menu-mobile {
+        display: block;
+    }
+    #menu-web {
+        display: none;
+    }
+}
+
+
+/*Index.html*/
+
+.search {
+    background: rgba(238, 238, 238, 0.8);
+}
+
+
+/*About.html*/
+
+link:hover a:hover {
+    text-decoration: underline;
+}
+
+
+/*Footer*/
+
+#find p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-mobile {
+    display: none;
+}
+
+@media only sreen and (max-width:505px) {
+    #footer-mobile {
+        display: block;
+    }
+    #footer-web {
+        display: none;
+    }
+}
